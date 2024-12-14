@@ -847,7 +847,7 @@ function revealMostSelectedBanimal() {
 
         // Share button functionality
         shareButton.onclick = () => {
-            const shareMessage = `check out my quiz results! play a fun personality/cyoa quiz here at https://wichiq.github.io/breakfast-animal-quiz/`;
+            const shareMessage = `check out my quiz results! play a fun personality/cyoa quiz here at https://wichiq.github.io/breakfastquiz/`;
             navigator.clipboard.writeText(shareMessage).then(() => {
                 alert('Link copied to clipboard!');
             }).catch(err => {
