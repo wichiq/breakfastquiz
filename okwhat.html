@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content='width=device-width, initial-scale=1.0'>
+	<title>Where am I?</title>
+	<link rel="icon" href="images/spookyicon.png" type="image/png">
+	<style>
+
+		/* CODE REFERENCED FROM: SOPHIE LIU! They made an amazing personality quiz you can find here: https://sophie006liu.github.io/vegetal/ */
+
+       @font-face {
+            font-family: 'CourierPrime';
+            src: url('Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
+        }
+		 body {
+            height: 100%;
+            font-family: 'CourierPrime', sans-serif;
+            margin: 0;
+            display: flex;
+            padding: 0px;
+            align-items: center;
+            justify-content: center;
+            font-family: 'PixelFont', sans-serif;
+            background: #130e1b;
+        }
+
+        .container {
+            /*width: 100vw; /* full viewport width */
+            height: calc(100vw * (16 / 9)); /* maintain 9:16 aspect ratio */
+            max-height: 91vh; /* full viewport height */
+            max-width: calc(100vh * (9 / 16));
+
+            padding: 20px;
+        
+            background: #1f172c;
+
+           
+            text-align: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
+        .title {
+            font-size: 20px;
+            margin-bottom: 3vh;
+            color: #3a52d2;
+            font-family: 'CourierPrime', sans-serif;
+        }
+
+        .start-button {
+            font-size: 20px;
+            font-family: 'CourierPrime', sans-serif;
+            padding: 2vh 2vw;
+            /* border: 2px solid #fcf0c0; */
+            background-color: #3a52d2;
+            cursor: pointer;
+            text-decoration: none;
+            margin-bottom: 2vh;
+            margin-top: 2vh;
+            color: #1f172c;
+        }
+
+        .start-button:hover {
+            background-color: #3348ba;
+           
+        }
+
+        .game-container {
+            display: none;
+            margin-top: 10%;
+            overflow: auto;
+            font-family: 'CourierPrime', sans-serif;
+        }
+ 
+        .choices {
+        
+        display: flex;
+        flex-direction: column; /* Arrange buttons in a column */
+        align-items: center; /* Center the buttons horizontally */
+        gap: 10px; /* Space between the buttons */
+        margin-top: 2rem;
+         /* Space above the choices container */
+
+        }
+
+        .choice-button {
+                      display: block;
+    width: 100%;
+    font-family: 'CourierPrime', sans-serif;
+            font-size: 18px; /* Adjust font size to be smaller */
+            padding: 2vh 2vw; /* Adjust padding based on viewport height and width */
+            border: 0.5px solid #3a52d2; /* Solid border */
+            background-color: #3a52d2; /* White background */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+        }
+
+        @media (hover: hover) {
+            .choice-button:hover {
+                background-color: #3348ba; /* Slightly darker background on hover */
+            }
+        }
+        .choice-button:focus {
+            background-color: #3348ba; /* Slightly darker background on hover */
+        }
+        .story-text {
+            font-size: 20px;
+            margin-bottom: 1rem;
+             color: #3a52d2; /* Space above the choices container */
+        /* padding-bottom: 5rem; */
+        }
+
+        .image-container {
+            max-width: 100%; /* Set max width of image container */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+
+        .image-container img {
+            width: 100%; /* Make the image fill its container */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove any extra space */
+            max-width: 100%; /* Ensure image does not exceed its container */
+        }
+
+        .responsive-image {
+            max-width: 100%;
+            height: auto;
+        }
+        #footer {
+		background-color: #3a52d2;
+		font-size:1em;
+		line-height:50px;
+		height:50px;
+
+	}
+
+	    #header {
+		background-color: #3a52d2;
+		font-size:1em;
+		line-height:50px;
+		height:35px;
+
+	}
+		.clearfloat {
+		clear: both;
+	}
+
+	</style>
+</head>
+<body><body>
+	<div id="body">
+	<div id="header"></div>
+	<div class="container">
+
+	<div class="title">regardless of your poor planning, you find tracks in the woods leading to a possible lair</div>
+	<img id="homescreen" src="images/whatisthisplace.png" alt="Story Image"/>
+	<a href="#" class="start-button" onclick="startGame()">continue</a>
+
+        <div class="game-container" id="game-container">
+            <div class ="story-text" id="story-text"></div>
+            <div class="image-container">
+                <img id="story-image" src="images/whatisthisplace.png" alt="Story Image"/>
+            </div> 
+            <div class="choices" id="choices"></div>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+	</div>
+
+
+
+<script src="js/whereami.js"> </script>
+<script async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript>"<img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" />"</noscript>
+</body>
+
+</html>	</body>
+</html>
