@@ -550,8 +550,8 @@ const gameData = {
         "text": "you spot a judge away from the crowd.  what is the plan?",
         "image": "images/approach_judge.PNG",
         "choices": {
-            "spill water on them and grab their judge badge while they’re distracted": [33,["Jam", "Waffle"]],
-            "say an eldrich demon is hunting you and this is your only chance for a good meal before you’re gone.": [33,["Pancake", "Bread", "Hazelnut", "Waffle"]],
+            "spill water on them and grab their judge badge while they’re distracted": [56,["Jam", "Waffle"]],
+            "say an eldrich demon is hunting you and this is your only chance for a good meal before you’re gone.": [56,["Pancake", "Bread", "Hazelnut", "Waffle"]],
         }
     },
 
@@ -559,9 +559,9 @@ const gameData = {
         "text": "the judge sees through your ruse and you’re thrown in a baby jail made by the event organizers.",
         "image": "images/baby_jail.PNG",
         "choices": {
-            "gnaw on the bars": [34,["Jam", "Pancake", "Butter", "Waffle"]],
-            "think about what you’ve done": [34,["Peanut"]],
-            "play cards with a fellow inmate": [34,["Toast", "Bread", "Hazelnut"]]
+            "gnaw on the bars": [57,["Jam", "Pancake", "Butter", "Waffle"]],
+            "think about what you’ve done": [57,["Peanut"]],
+            "play cards with a fellow inmate": [57,["Toast", "Bread", "Hazelnut"]]
         }
     },
 
@@ -569,8 +569,8 @@ const gameData = {
         "text": "you are set to be put on trial at the baking competition for your crimes.",
         "image": "images/pretrial_decide.PNG",
         "choices": {
-            "represent yourself in court": [35,["Bread", "Hazelnut", "Peanut", "Waffle"]],
-            "invoke your right to an attorney": [37,["Jam", "Pancake", "Toast", "Butter"]]
+            "represent yourself in court": [58,["Bread", "Hazelnut", "Peanut", "Waffle"]],
+            "invoke your right to an attorney": [60,["Jam", "Pancake", "Toast", "Butter"]]
         }
     },
 
@@ -578,9 +578,9 @@ const gameData = {
         "text": "what is your defense?",
         "image": "images/your_defense.PNG",
         "choices": {
-            "i just had the hungiess lol it’s not that srs lol": [36,["Jam", "Peanut", "Waffle"]],
-            "your honor, i’m just a little guy.": [36,["Bread", "Hazelnut", "Waffle"]],
-            "i’m innocent!!! you can’t prove malicious intent!!! i'll get you for this!!!": [36,["Waffle", "Waffle"]]
+            "i just had the hungiess lol it’s not that srs lol": [59,["Jam", "Peanut", "Waffle"]],
+            "your honor, i’m just a little guy.": [59,["Bread", "Hazelnut", "Waffle"]],
+            "i’m innocent!!! you can’t prove malicious intent!!! i'll get you for this!!!": [59,["Waffle", "Waffle"]]
         }
     },
 
@@ -589,8 +589,8 @@ const gameData = {
         "image": "images/baby_jail.PNG",
         "choices": {
             "maybe i should’ve tried to clear my hex.": [61,["Jam", "Pancake", "Toast", "Butter", "Bread", "Hazelnut", "Peanut"]],
-            "continue your card game with the fellow inmate": [38,["Hazelnut", "Bread", "Toast", "Waffle"]],
-            "continue to gnaw on the bars": [38,["Jam", "Pancake", "Butter", "Waffle"]]
+            "continue your card game with the fellow inmate": [61,["Hazelnut", "Bread", "Toast", "Waffle"]],
+            "continue to gnaw on the bars": [61,["Jam", "Pancake", "Butter", "Waffle"]]
         }
     },
 
@@ -599,8 +599,8 @@ const gameData = {
         "image": "images/baby_jail.PNG",
         "choices": {
             "maybe i should’ve tried to clear my hex.": [61,["Jam", "Pancake", "Toast", "Butter", "Bread", "Hazelnut", "Peanut"]],
-            "continue your card game with the fellow inmate": [38,["Hazelnut", "Bread", "Toast", "Waffle"]],
-            "continue to gnaw on the bars": [38,["Jam", "Pancake", "Butter", "Waffle"]]
+            "continue your card game with the fellow inmate": [61,["Hazelnut", "Bread", "Toast", "Waffle"]],
+            "continue to gnaw on the bars": [61,["Jam", "Pancake", "Butter", "Waffle"]]
         }
     },
 
@@ -750,8 +750,181 @@ const gameData = {
             "i’m gonna start crying": [39,["Bread"]],
             "NOOOO! KISS AND MAKE UP RN!!!": [39,["Jam", "Pancake", "Bread"]]
         }
-    }
+    },
 
+    "77": {
+        "text": "Regardless of your poor planning, you find tracks in the woods leading to a possible lair.",
+        "image": "images/whatisthisplace.PNG",
+        "choices": {
+            "Continue": [78,["Peanut", "error"]]
+        }
+    },
+
+    "78": {
+        "text": "You enter the lair. The darkness seems almost tangible, and you realize you cannot find the exit. The only way out is through.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "Go left.": [79,["Peanut"]],
+            "Go right.": [79,["Peanut"]]
+        }
+    },
+
+    "79": {
+        "text": "Darkness.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "Go left.": [80,["Peanut"]],
+            "Go right.": [80,["Peanut"]]
+        }
+  },
+
+    "80": {
+        "text": "More darkness.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "Go left.": [81,["Peanut"]],
+            "Go right.": [81,["Peanut"]]
+        }
+ }, 
+   "81": {
+        "text": "Something crunches underneath your foot.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "Go left.": [82,["Peanut"]],
+            "Go right.": [82,["Peanut"]]
+        }
+  },  
+   "82": {
+        "text": "You think you heard someone call your name.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "Go left.": [83,["Peanut"]],
+            "Go right.": [83,["Peanut"]]
+        }
+ }, 
+  
+  "83": {
+        "text": "You hear your heart beating through your chest.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "Go left.": [84,["Peanut"]],
+            "Go right.": [84,["Peanut"]]
+        }
+ }, 
+  
+    "84": {
+        "text": "Something is moving rapidly towards you.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "Run left.": [85,["Peanut"]],
+            "Run right.": [85,["Peanut"]]
+        }
+  
+  },
+    "85": {
+        "text": "It's laugh echoes, growing louder.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "Enough of this (wait)": [86,["Peanut"]],
+            "KEEP RUNNING!!!": [87,["Peanut"]]
+        }
+  },
+  
+    "86": {
+        "text": "You fish around blindly and step on something crunchy again. You hold it towards the sound and try to stay quiet. Silence. Then, a horrilble force crashes into you and impales itself on your weapon. It falls over, still. Light falls on your eyes and you see the exit.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "My business here is concluded.": [39,["Peanut"]],
+            "I need to update the group chat, stat!": [39, ["Peanut"]],
+            "That was so scary!": [39,["Peanut"]]
+        }
+  
+ },
+
+    "39": {
+        "text": "Well, that’s that! The sun is setting. How will you spend the rest of your day? (Last Question)",
+        "image": "images/final_question.PNG",
+        "choices": {
+            "The sky is so clear, I wanna go stargazing!": [0,["Peanut"]],
+            "time to go home and unwind :)": [0,["Peanut"]],
+            "I’m off to catch a movie with friends!!!": [0,["Peanut"]]
+        }
+  },
+  
+    "87": {
+        "text": "GO.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "RUN": [88,["error"]],
+            " RUN": [88,["error"]],
+            "RUN ": [88,["error"]]
+        }
+  },
+  
+    "88": {
+        "text": "KEEP GOING.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            " RUN": [89,["error"]],
+            "RUN ": [89,["error"]],
+            "RUN": [89,["error"]]
+        }
+ }, 
+    "89": {
+        "text": "YOU REALIZE SOMETHING",
+        "image": "images/too_far.PNG",
+        "choices": {
+            " RUN": [90,["error"]],
+            "RUN ": [90,["error"]],
+            "RUN": [90,["error"]]
+        }
+},  
+    "90": {
+        "text": "YOU CAN'T REMEMBER YOUR NAME",
+        "image": "images/too_far.PNG",
+        "choices": {
+            " RUN": [91,["error"]],
+            "RUN ": [91,["error"]],
+            "RUN": [91,["error"]],
+            "RUN  ": [91,["error"]],
+            "  RUN": [91,["error"]]
+        }
+ }, 
+    "91": {
+        "text": "YOU CAN'T REMEMBER WHAT YOU LOOK LIKE",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "RUN": [92,["error"]],
+            "RUN ": [92,["error"]],
+            " RUN": [92,["error"]],
+            "RUN  ": [92,["error"]],
+            "  RUN": [92,["error"]],
+            " RUN ": [92,["error"]],
+            "  RUN  ": [92,["error"]],
+            "RUN   ": [92,["error"]],
+            "   RUN": [92,["error"]],
+            " RUN   ": [92,["error"]],
+            " RUN  ": [92,["error"]],
+            "  RUN   ": [92,["error"]],
+            "   RUN ": [92,["error"]]
+        }
+  
+  },
+    "92": {
+        "text": "You can't remember why you were running.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "Stop.": [93,["error"]]
+        }
+  },
+  
+    "93": {
+        "text": "After all, you're home.",
+        "image": "images/too_far.PNG",
+        "choices": {
+            "I'm Home.": [0,["error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error", "error"]]
+        }
+    },
 
 };
 
@@ -763,7 +936,8 @@ const personalities = {
     "Hazelnut": 0,
     "Peanut": 0,
     "Butter": 0,
-    "Jam": 0
+    "Jam": 0,
+    "error": 0
 };
 
 let currentState = 1;
