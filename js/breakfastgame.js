@@ -17,7 +17,7 @@ const gameData = {
         "choices": {
             "go on the thrill rides": [3,["Jam", "Butter", "Bread", "Peanut", "Waffle"]],
             "try your hand at the carnival games": [7,["Pancake", "Toast", "Butter", "Bread", "Hazelnut", "Peanut"]],
-            "seek out some deep fried yummies!": [7,["Jam", "Waffle"]]
+            "seek out some deep fried yummies!": [7,["Jam", "Jam", "Waffle"]]
         }
     },
 
@@ -60,7 +60,7 @@ const gameData = {
         "image": "images/cook_flyer.PNG",
         "choices": {
             "perfect way to spend the afternoon!": [20,["Pancake", "Toast", "Hazelnut"]], 
-            "a chance for some food!": [20,["Jam", "Bread"]],
+            "a chance for some food!": [20,["Jam", "Jam", "Bread"]],
             "sounds like a relaxing and non-chaotic time :)": [20,["Butter", "Peanut"]]
         } 
     },
@@ -541,7 +541,7 @@ const gameData = {
         "text": "everything you try to make flops horribly, and you’re still hungry.",
         "image": "images/hexed_dubiousfood.PNG",
         "choices": {
-            "ok, enough of this, i better go clear my hex,": [43,["Jam", "Pancake", "Toast", "Butter", "Bread", "Hazelnut", "Peanut"]],
+            "ok, enough of this, i better go clear my hex": [43,["Jam", "Pancake", "Toast", "Butter", "Bread", "Hazelnut", "Peanut"]],
             "steal another competitor’s dish and get munching!": [57,["Waffle", "Waffle"]]
         }
     },
