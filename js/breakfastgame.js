@@ -625,7 +625,7 @@ const gameData = {
 
 
     "63": {
-        "text": "as some bystanders help the judge to the competition, you investigate the scene and find a note that says “Payback for -”. then, the fiend catches up!",
+        "text": "as some bystanders help the muffin judge to the competition, you investigate the scene and find a note that says “Payback for -”. then, the fiend catches up!",
         "image": "images/judge_note.PNG",
         "choices": {
             "AAAAAAAAAAAAAAAA!!!": [64,["Jam", "Pancake", "Bread"]],
@@ -675,7 +675,7 @@ const gameData = {
         "image": "images/trial_attorney.PNG",
         "choices": {
             "call the person claiming to be the target to the stand": [70,["Butter", "Pancake", "Hazelnut"]],
-            "call the judge you encountered to the stand": [71,["Jam", "Toast", "Bread", "Hazelnut", "Peanut"]]
+            "call the muffin judge you encountered to the stand": [71,["Jam", "Toast", "Bread", "Hazelnut", "Peanut"]]
         }
     },
 
@@ -684,21 +684,21 @@ const gameData = {
         "image": "images/trial_prosecutor.PNG",
         "choices": {
             "hmmm (they’re onto something) let’s call the target to the stand": [70,["Jam", "Hazelnut", "Bread", "Toast"]],
-            "let’s call the judge from earlier to the stand, they may be connected": [71,["Jam", "Butter", "Bread", "Toast"]]
+            "let’s call the muffin judge from earlier to the stand, they may be connected": [71,["Jam", "Butter", "Bread", "Toast"]]
         }
     },
 
     "70": {
-        "text": "the target, a contestant, concurs the defendant was probably framed.  \"if anyone wanted to sabotage my bake, it would be that judge!\"",
+        "text": "the target, a contestant, concurs the defendant was probably framed.  \"if anyone wanted to sabotage my bake, it would be that muffin judge!\"",
         "image": "images/trial_pcake1.PNG",
         "choices": {
             "*gasp* it’s all coming together! i think...": [71,["Jam", "Pancake", "Bread", "Hazelnut"]],
-            "hmm, can the bag be connected to the judge tho?": [71,["Toast", "Butter", "Peanut"]]
+            "hmm, can the bag be connected to the muffin judge tho?": [71,["Toast", "Butter", "Peanut"]]
         }
     },
 
     "71": {
-        "text": "the judge recounts their attack on the way to the competition.",
+        "text": "the muffin judge recounts their attack on the way to the competition.",
         "image": "images/trial_judge1.PNG",
         "choices": {
             "i’m onto you! (present the torn note)": [72,["Jam", "Toast", "Bread", "Peanut"]],
@@ -707,20 +707,20 @@ const gameData = {
     },
 
     "72": {
-        "text": "you present the torn note to the judge. they say \“i don’t know where that came from!” the fiend must’ve planted it on me when they attacked!\”",
+        "text": "you present the torn note to the muffin judge. they say \“i don’t know where that came from!” the fiend must’ve planted it on me when they attacked!\”",
         "image": "images/trial_judge2.PNG",
         "choices": {
             "believe them": [75,["Toast", "Butter", "Peanut", "Hazelnut"]],
-            "compare the handwriting on the note with the judge’s handwriting.": [74,["Jam", "Toast", "Bread", "Peanut"]]
+            "compare the handwriting on the note with the muffin judge’s handwriting.": [74,["Jam", "Toast", "Bread", "Peanut"]]
         }
     },
 
     "73": {
-        "text": "you ask the target where they were when the judge was attacked, and they get defensive. \“i’m the target here, clearly this line of questioning is pointless!\”",
+        "text": "you ask the target where they were when the muffin judge was attacked, and they get defensive. \“i’m the target here, clearly this line of questioning is pointless!\”",
         "image": "images/trial_pcake2.PNG",
         "choices": {
             "hmm... (keep up the pressure!)": [75,["Toast", "Butter", "Peanut", "Hazelnut"]],
-            "compare the handwriting on the note with the judge’s handwriting.": [74,["Jam", "Toast", "Bread", "Peanut"]]
+            "compare the handwriting on the note with the muffin judge’s handwriting.": [74,["Jam", "Toast", "Bread", "Peanut"]]
         }
     },
 
@@ -743,7 +743,7 @@ const gameData = {
     },
 
     "76": {
-        "text": "the framed audience member is declared “not guilty”, and the judge says to the contestant \“old friend, i never would’ve rated you poorly based on past grievances. i forgave you long ago. now you must forgive yourself.\”",
+        "text": "the framed audience member is declared “not guilty”, and the muffin judge says to the contestant \“old friend, i never would’ve rated you poorly based on past grievances. i forgave you long ago. now you must forgive yourself.\”",
         "image": "images/trial_afterword.PNG",
         "choices": {
             "someone grab the popcorn!!!": [39,["Toast", "Butter", "Hazelnut", "Peanut"]],
