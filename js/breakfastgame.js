@@ -111,7 +111,7 @@ const gameData = {
         "choices": {
             "get some work done, this train is a nice place to concentrate": [12,["Pancake", "Butter", "Toast", "Hazelnut"]],
             "listen to some of your favorite music and unwind.": [12,["Jam", "Toast"]],
-            "photograph the landscape. Wait, what was that???": [16,["Bread", "Hazelnut", "Peanut", "Waffle"]]
+            "photograph the landscape. wait, what was that???": [16,["Bread", "Hazelnut", "Peanut", "Waffle"]]
         }
     },
 
