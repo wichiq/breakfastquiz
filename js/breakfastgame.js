@@ -489,7 +489,7 @@ const gameData = {
         "choices": {
             "thank them back for helping you redeem yourself.": [50,["Toast", "Butter", "Bread", "Peanut"]],
             "YAY!!!!!!": [50,["Jam", "Pancake", "Hazelnut"]],
-            "HAHAHA!!! I learned nothing!!! TAKE THAT!!!": [51,["Waffle", "Waffle"]]
+            "HAHAHA!!! i learned nothing!!! TAKE THAT!!!": [51,["Waffle", "Waffle"]]
         }
     },
 
