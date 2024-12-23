@@ -130,7 +130,7 @@ const gameData = {
         "choices": {
             "oh no! this is a nightmare!": [14,["Jam", "Toast", "Bread"]],
             "i get to look at sweaty buff people, yay!": [14,["Pancake", "Pancake"]],
-            "this is what I get for skipping leg day, i suppose.": [14,["Butter", "Hazelnut", "Peanut", "Waffle"]]
+            "this is what i get for skipping leg day, i suppose.": [14,["Butter", "Hazelnut", "Peanut", "Waffle"]]
         }
     },
 
