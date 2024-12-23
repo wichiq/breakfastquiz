@@ -385,7 +385,7 @@ const gameData = {
     },
 
     "39": {
-        "text": "well, that’s that! the sun is setting. How will you spend the rest of your day? (last question)",
+        "text": "well, that’s that! the sun is setting. how will you spend the rest of your day? (last question)",
         "image": "images/final_question.PNG",
         "choices": {
             "the sky is so clear, i wanna go stargazing!": [0,["Hazelnut", "Peanut", "Hazelnut"]],
@@ -841,15 +841,6 @@ const gameData = {
   
  },
 
-    "39": {
-        "text": "Well, that’s that! The sun is setting. How will you spend the rest of your day? (Last Question)",
-        "image": "images/final_question.PNG",
-        "choices": {
-            "The sky is so clear, I wanna go stargazing!": [0,["Peanut"]],
-            "time to go home and unwind :)": [0,["Peanut"]],
-            "I’m off to catch a movie with friends!!!": [0,["Peanut"]]
-        }
-  },
   
     "87": {
         "text": "GO.",
